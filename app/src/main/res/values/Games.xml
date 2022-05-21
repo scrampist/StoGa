@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="games">
+        <item>Assassins Creed: Unity</item>
+        <item>Dying Light</item>
+        <item>Dying Light 2</item>
+        <item>FarCry 6</item>
+        <item>Far Cry New Dawn</item>
+        <item>Far Cry 5</item>
+        <item>Far Cry 4</item>
+        <item>Far Cry 3</item>
+        <item>Far Cry 3 - Blood Dragon</item>
+        <item>Prey</item>
+        <item>The Witcher 3</item>
+
+    </string-array>
+
+
+</resources>
