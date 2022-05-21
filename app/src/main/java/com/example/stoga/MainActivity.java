@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
                 String DL2 = adapter.getItem(i+2);
                 String FC6 = adapter.getItem(i+3);
                 String FCND = adapter.getItem(i+4);
+                switch(i){
+                    case 1:
+                        startActivity(intent);
+                }
 
 
             }
