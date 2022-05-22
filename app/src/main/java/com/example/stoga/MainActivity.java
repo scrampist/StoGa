@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 switch(i){
                     case 1:
                         startActivity(intent);
+                        break;
                 }
 
 
