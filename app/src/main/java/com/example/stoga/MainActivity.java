@@ -39,14 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(MainActivity.this, AcuActivity.class);
-                String AC = adapter.getItem(i+0);
-                String DL = adapter.getItem(i+1);
-                String DL2 = adapter.getItem(i+2);
-                String FC6 = adapter.getItem(i+3);
-                String FCND = adapter.getItem(i+4);
-                switch(i){
-                    case 0:
+                String gameName = adapter.getItem(i);
+                switch(gameName){
+                    case "Assassins Creed: Unity":
+                        Intent intent = new Intent(MainActivity.this, AcuActivity.class);
                         startActivity(intent);
                         break;
                 }
