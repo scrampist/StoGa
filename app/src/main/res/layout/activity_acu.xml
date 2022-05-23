@@ -20,6 +20,7 @@
 
     </LinearLayout>
 
+
     <ImageSwitcher
         android:layout_width="match_parent"
         android:layout_height="325dp"
@@ -36,6 +37,7 @@
             android:src="@drawable/equipment"/>
 
     </ImageSwitcher>
+
 
     <Button
         android:layout_width="match_parent"
