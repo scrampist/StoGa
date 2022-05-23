@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String gameName = adapter.getItem(i);
                 switch(gameName){
                     case "Assassins Creed: Unity":
+                        //не работает
                         Intent intent = new Intent(MainActivity.this, AcuActivity.class);
                         startActivity(intent);
                         break;
