@@ -20,9 +20,23 @@
 
     </LinearLayout>
 
-    <TextView
+    <ImageSwitcher
         android:layout_width="match_parent"
-        android:layout_height="350dp"/>
+        android:layout_height="325dp"
+        android:onClick="onSwitcherClick"
+        android:id = "gameImageSwitcher">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/view"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/equipment"/>
+
+    </ImageSwitcher>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
