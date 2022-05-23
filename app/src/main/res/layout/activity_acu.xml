@@ -13,12 +13,12 @@
         android:text="Assasin's Creed:Unity"
         android:gravity="center"
         android:textSize = "25dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:orientation =  "horizontal">
 
-    </LinearLayout>
 
 
     <ImageSwitcher
@@ -37,14 +37,19 @@
             android:src="@drawable/equipment"/>
 
     </ImageSwitcher>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="325dp"/>
 
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="75dp"
         android:id = "@+id/read"
         android:onClick="read"
         android:text = "READ"/>
+
 
 
 </LinearLayout>
