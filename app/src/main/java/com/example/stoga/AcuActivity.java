@@ -20,7 +20,7 @@ public class AcuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_acu);
         read = findViewById(R.id.read);
-        gameImageSwitcher=findViewById(R.id.gameImageSwitcher);
+        gameImageSwitcher=findViewById(R.id.images);
     }
 
 
@@ -37,6 +37,6 @@ public class AcuActivity extends AppCompatActivity {
     }
 
     public void onSwitcherClick(View view) {
-        mImageSwitcher.showNext();
+        gameImageSwitcher.showNext();
     }
 }
