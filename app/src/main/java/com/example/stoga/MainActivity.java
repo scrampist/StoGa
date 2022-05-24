@@ -4,10 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.lang.reflect.Array;
 
@@ -30,30 +33,25 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, games);
 
         list.setAdapter(adapter);
-
-
-    }
-
-    public void list(View view) {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String gameName = adapter.getItem(i);
+            public void onItemClick(AdapterView<?> parent, View itemClicked, int position,
+                                    long id) {
+                String gameName = adapter.getItem(position);
                 switch(gameName){
                     case "Assassins Creed: Unity":
-                        //не работает
                         Intent intent = new Intent(MainActivity.this, AcuActivity.class);
                         startActivity(intent);
                         break;
                 }
 
-
             }
-
-
-
         });
 
+
+
     }
-}
+
+
+
+    }
