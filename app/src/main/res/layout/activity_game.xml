@@ -49,10 +49,13 @@
 
     </ImageSwitcher>
     </LinearLayout>
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="325dp"
-        android:text=""/>
+        android:layout_height="match_parent"
+        android:text="События данной части Assasins’s Creed разворачиваются в эпоху французских революций.
+         И нашему герою приходится не легко. Ему приходится свергать королей,убивать предателей и узнавать
+         множество неприятной информации о братстве ассасинов.
+         Исследуй эту историю вместе с ним и погрузись в эту историю с головой."/>
 
 
     <Button
