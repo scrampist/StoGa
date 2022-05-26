@@ -20,7 +20,6 @@
         android:orientation =  "horizontal">
 
 
-
     <ImageSwitcher
         android:layout_width="match_parent"
         android:layout_height="325dp"
@@ -35,6 +34,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/equipment"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/sit"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/river"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/run"/>
 
     </ImageSwitcher>
     </LinearLayout>
@@ -49,7 +60,7 @@
         android:layout_height="75dp"
         android:id = "@+id/read"
         android:onClick="read"
-        android:text = "READ"/>
+        android:text = "READ" />
 
 
 
