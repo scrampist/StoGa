@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StoGa">
         <activity
-            android:name=".AcuActivity"
+            android:name=".GameActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
