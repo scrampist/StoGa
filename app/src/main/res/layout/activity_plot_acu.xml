@@ -11,7 +11,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Nhf[fnm cer gbnm cjr"/>
+        android:text="@string/plot_acu"
+        android:textSize="25dp"
+        android:id = "@+id/plotAcu"/>
 
 
 </LinearLayout>

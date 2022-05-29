@@ -5,14 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation = "vertical"
-    tools:context=".GameActivity">
+    tools:context=".GameActivity"
+    android:background="@color/black">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Assasin's Creed:Unity"
         android:gravity="center"
-        android:textSize = "25dp"/>
+        android:textSize = "25dp"
+        android:textColor="@color/white"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,9 +33,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/equipment"/>
-
-
+                android:src="@drawable/sit"/>
 
 
 
@@ -46,9 +46,10 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:text = "@string/acu"
-        android:textSize = "20dp"
+        android:textSize = "25dp"
         android:scrollbars="vertical"
-        android:id = "@+id/annotation"/>
+        android:id = "@+id/annotation"
+        android:textColor="@color/white"/>
 
 
 
@@ -57,7 +58,8 @@
         android:layout_height="75dp"
         android:id = "@+id/read"
         android:onClick="read"
-        android:text = "READ" />
+        android:text = "READ"
+        android:textColor="@color/white"/>
 
 
 
