@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">StoGa</string>
+    <string name="app_name" translatable="false">StoGa</string>
 </resources>

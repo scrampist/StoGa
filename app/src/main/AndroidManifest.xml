@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StoGa">
         <activity
+            android:name=".PlotAcu"
+            android:exported="false" />
+        <activity
             android:name=".GameActivity"
             android:exported="false" />
         <activity

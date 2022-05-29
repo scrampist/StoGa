@@ -4,26 +4,35 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 
+import android.widget.HorizontalScrollView;
 import android.widget.ImageSwitcher;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class GameActivity extends AppCompatActivity {
-    TextView name;
+    TextView annotation;
     Button read;
 
-    ImageSwitcher gameImageSwitcher;
+    ImageSwitcher gameScrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         read = findViewById(R.id.read);
-        gameImageSwitcher=findViewById(R.id.images);
+        gameScrollView=findViewById(R.id.images);
+        annotation = findViewById(R.id.annotation);
+        annotation.setMovementMethod(new ScrollingMovementMethod());
+
+
+
     }
 
 
@@ -32,6 +41,8 @@ public class GameActivity extends AppCompatActivity {
         read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(GameActivity.this,PlotAcu.class);
+                startActivity(intent);
 
 
             }
@@ -41,8 +52,7 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
-    public void onSwitcherClick(View view) {
-        gameImageSwitcher.showNext();
-    }
 
+    public void ImageSwitcher(View view) {
+    }
 }

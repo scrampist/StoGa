@@ -19,44 +19,40 @@
         android:layout_height="300dp"
         android:orientation =  "horizontal">
 
+        <ImageSwitcher
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:onClick="ImageSwitcher"
+            android:id = "@+id/images">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/view"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/equipment"/>
 
-    <ImageSwitcher
-        android:layout_width="match_parent"
-        android:layout_height="325dp"
-        android:onClick="onSwitcherClick"
-        android:id = "@+id/images">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/view"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/equipment"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src = "@drawable/sit"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src = "@drawable/river"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src = "@drawable/run"/>
 
-    </ImageSwitcher>
+
+
+        </ImageSwitcher>
+
+
+
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="325dp"/>
+        android:layout_height="400dp"
+        android:text = "@string/acu"
+        android:textSize = "20dp"
+        android:scrollbars="vertical"
+        android:id = "@+id/annotation"/>
 
 
 
     <Button
-        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:id = "@+id/read"
