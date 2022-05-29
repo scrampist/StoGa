@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/Egor/AndroidStudioProjects/StoGa/app/src/main/res/layout/activity_acu.xml" value="0.1" />
         <entry key="..\:/Users/Egor/AndroidStudioProjects/StoGa/app/src/main/res/layout/activity_main.xml" value="0.33" />
+=======
+        <entry key="..\:/Users/User/AndroidStudioProjects/StoGa-master/app/src/main/res/drawable/button.xml" value="0.258" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/StoGa-master/app/src/main/res/layout/activity_acu.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/StoGa-master/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+>>>>>>> 0cfaecb33130f1645b40d09663f0f76dca049494
       </map>
     </option>
   </component>

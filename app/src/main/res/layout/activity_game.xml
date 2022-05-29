@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation = "vertical"
-    tools:context=".AcuActivity">
+    tools:context=".GameActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -19,6 +19,10 @@
         android:layout_height="300dp"
         android:orientation =  "horizontal">
 
+<<<<<<< HEAD:app/src/main/res/layout/activity_acu.xml
+=======
+
+>>>>>>> 0cfaecb33130f1645b40d09663f0f76dca049494:app/src/main/res/layout/activity_game.xml
     <ImageSwitcher
         android:layout_width="match_parent"
         android:layout_height="325dp"
@@ -33,14 +37,34 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/equipment"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/sit"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/river"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src = "@drawable/run"/>
 
     </ImageSwitcher>
     </LinearLayout>
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_acu.xml
         android:layout_height="325dp"
         android:text = "@string/acu"
         android:textSize = "22.5dp"/>
+=======
+        android:layout_height="match_parent"
+        android:text="События данной части Assasins’s Creed разворачиваются в эпоху французских революций.
+         И нашему герою приходится не легко. Ему приходится свергать королей,убивать предателей и узнавать
+         множество неприятной информации о братстве ассасинов.
+         Исследуй эту историю вместе с ним и погрузись в эту историю с головой."/>
+>>>>>>> 0cfaecb33130f1645b40d09663f0f76dca049494:app/src/main/res/layout/activity_game.xml
 
 
     <Button
@@ -49,7 +73,7 @@
         android:layout_height="75dp"
         android:id = "@+id/read"
         android:onClick="read"
-        android:text = "READ"/>
+        android:text = "READ" />
 
 
 
