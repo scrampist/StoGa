@@ -26,6 +26,7 @@ public class AcuActivity extends AppCompatActivity {
     }
 
 
+
     public void read(View view) {
         read.setOnClickListener(new View.OnClickListener() {
             @Override

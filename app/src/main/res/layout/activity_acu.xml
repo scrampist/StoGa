@@ -19,8 +19,6 @@
         android:layout_height="300dp"
         android:orientation =  "horizontal">
 
-
-
     <ImageSwitcher
         android:layout_width="match_parent"
         android:layout_height="325dp"
@@ -40,10 +38,13 @@
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="325dp"/>
+        android:layout_height="325dp"
+        android:text = "@string/acu"
+        android:textSize = "22.5dp"/>
 
 
     <Button
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:id = "@+id/read"
